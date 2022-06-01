@@ -7,11 +7,11 @@ public class AnotherFileParser {
 
     public static void main(String args[]) {
         try {
-            File file = new File("suites.csv");                    // creates a new file instance
+            File file = new File("src/resourses/morgun-devops-1265.csv");                    // creates a new file instance
             FileReader fr = new FileReader(file);                           // reads the file
             BufferedReader br = new BufferedReader(fr);                     // creates a buffering character input stream
             StringBuffer sb = new StringBuffer();                           // creates a string buffer for handling all appended strings
-            Pattern lineReg = Pattern.compile("((com\\.creatoriq\\.tests\\.\\w+?\\.C+(([0-9])+?)+([A-Za-z]+)))"); // creates regex pattern for matching
+            Pattern lineReg = Pattern.compile("((com\\.creatoriq\\.tests\\.\\w+?\\.C+(([0-9])+?)+([A-Za-z0-9]+)))"); // creates regex pattern for matching
             String line;
             int count = 0;
             while (((line = br.readLine()) != null)) {                      // while the line is not null
