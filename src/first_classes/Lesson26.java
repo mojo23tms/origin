@@ -31,9 +31,35 @@ public class Lesson26 {
          *
          * WHY DO WE NEED OBJECTS?
          * - For Integer: to display value in other format
-         *      without storing it in another variable
+         *      without storing it in another variable /
+         */
+        Integer number = 25; // Returns 25
+        number.floatValue(); // Returns 25.0
+        /**
          * - Whole concept: for storing and using functions
          *      of different object types
          */
+
+        /**
+         * OPERATORS:
+         * = Used to perform operations with values and variable
+         * - ASSIGNMENT OPERATORS
+         * - UNARY OPERATORS
+         * - EQUALITY AND RELATIONAL OPERATORS
+         * - TERNARY OPERATOR
+         * - LOGICAL OPERATORS
+         * - BITWISE AND BITSHIFT OPERATORS:
+         *
+         * LOOPS - What is it?
+         * - Repeat code till a specific condition is met
+         * - WHILE LOOP
+         * - DO-WHILE LOOP
+         * - FOR LOOP
+         * - CONTINUE & BREAL
+         */
+
+
+
+
     }
 }

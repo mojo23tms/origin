@@ -24,5 +24,10 @@ public class Lesson25_Practice {
         System.out.println("- Base attack time: " + baseAttackTime);
         System.out.println("- Damage: " + dmgMin + " - " + dmgMax);
         System.out.println("- Attack point: " + attackPoint);
+
+        /**
+         * OPERATORS: Coding part
+         */
+
     }
 }
